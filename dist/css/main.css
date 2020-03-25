@@ -34,7 +34,10 @@
     padding: 0;
     list-style: none; }
 
-.menu-item .nav-link {
+.menu-item.current > a {
+  color: steelblue; }
+
+.nav-link {
   display: inline-block;
   position: relative;
   font-size: 30pt;
@@ -43,7 +46,7 @@
   font-weight: bold;
   text-decoration: none;
   color: set-text-color(#666); }
-  .menu-item .nav-link:hover {
+  .nav-link:hover {
     color: steelblue; }
 
 body {
@@ -61,6 +64,10 @@ h1, h2, h3 {
     font-size: 6rem; }
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     background: rgba(107, 107, 107, 0.5); }
+
+a {
+  color: #fff;
+  text-decoration: none; }
 
 main {
   padding: 4rem;

@@ -47,24 +47,24 @@ $secondary_color: steelblue;
     }
 }
 .menu-item {
-    .nav-link {
-        display: inline-block;
-        position: relative;
-        font-size: 30pt;
-        text-transform: uppercase;
-        padding: 1rem 0;
-        font-weight: bold;
-        text-decoration: none;
-        color: set-text-color($primary_color);
-
-        &:hover {
-            color: $secondary_color;
-        }
+    &.current > a {
+        color: $secondary-color;
+      }
+    
     }
+.nav-link {
+    display: inline-block;
+    position: relative;
+    font-size: 30pt;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    font-weight: bold;
+    text-decoration: none;
+    color: set-text-color($primary_color);
 
-
-
-
+    &:hover {
+        color: $secondary_color;
+    }
 }
 
 body {
@@ -87,9 +87,12 @@ h1, h2, h3 {
     &.sm-heading {
         background: rgba(lighten($primary_color, 2), 0.5);
     }
-
-
 }
+
+a {
+    color: #fff;
+    text-decoration: none;
+  }
 
 main {
     padding: 4rem;
