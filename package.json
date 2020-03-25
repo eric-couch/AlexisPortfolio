@@ -1,0 +1,15 @@
+{
+  "name": "alexisportfolio",
+  "version": "1.0.0",
+  "description": "Portfolio to show off my skills",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Couch",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

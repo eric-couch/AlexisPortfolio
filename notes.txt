@@ -1,0 +1,21 @@
+Alexis Project
+--------------
+MERN
+MongoDB
+Express
+react
+node
+
+refresher of Node/Express
+    build html/css/js front end
+        Learn CSS Pre Processor (LESS or SASS)
+        Learn some Advanced ES6+ (Javascript)
+    import front end into node.js/express app
+Learn MongoDB
+    create data stores for information in app
+
+Learn more Advanced ES6+ (Javascript)
+
+Learn React
+
+build portfolio MERN Stack
