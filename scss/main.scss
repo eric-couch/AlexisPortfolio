@@ -1,4 +1,5 @@
 $primary_color: #666;
+$secondary_color: steelblue;
 
 * {
     box-sizing: border-box;
@@ -44,6 +45,26 @@ $primary_color: #666;
         padding: 0;
         list-style: none;
     }
+}
+.menu-item {
+    .nav-link {
+        display: inline-block;
+        position: relative;
+        font-size: 30pt;
+        text-transform: uppercase;
+        padding: 1rem 0;
+        font-weight: bold;
+        text-decoration: none;
+        color: set-text-color($primary_color);
+
+        &:hover {
+            color: $secondary_color;
+        }
+    }
+
+
+
+
 }
 
 body {

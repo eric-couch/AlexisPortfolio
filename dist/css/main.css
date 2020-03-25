@@ -34,6 +34,18 @@
     padding: 0;
     list-style: none; }
 
+.menu-item .nav-link {
+  display: inline-block;
+  position: relative;
+  font-size: 30pt;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  font-weight: bold;
+  text-decoration: none;
+  color: set-text-color(#666); }
+  .menu-item .nav-link:hover {
+    color: steelblue; }
+
 body {
   background: #666;
   color: #ffffff;
